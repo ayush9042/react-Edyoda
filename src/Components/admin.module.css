@@ -1,0 +1,72 @@
+.updatebutton{
+    display: none;
+}
+
+.hide{
+    display: none;
+}
+
+.formitemdisplay{
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1573883431205-98b5f10aaedb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG1lZGljaW5lfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=60");
+    background-repeat: no-repeat;
+    padding: 80px 60px;
+    display: flex;
+    width: calc(100% - 120px);
+}
+
+.inputfield{
+    width: 50%;
+    height: 40px;
+    margin: 10px;
+    margin-left: -20px;
+}
+
+.lable{
+    width: 250px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.formitem{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form{
+    width: 100%;
+}
+
+.submitbutton{
+    width: 25%;
+    height: 50px;
+    margin: 40px;
+    border-radius: 5px;
+    font-weight: 600;
+    background-color: green;
+    cursor: pointer;
+}
+
+.headingtitle{
+    margin: 0 0 50px 0;
+}
+
+.listmaincontainer{
+    width: calc(100% - 60px);
+    margin: 30px;
+    text-align: center;
+}
+
+.tablemain{
+    width: 100%;
+}
+
+.tablehadingrow{
+    width: 100%;
+    border: 1px solid lightslategray;
+    background-color: rgb(13, 126, 238);
+}
+
+.tabledatarow{
+    background-color: rgb(13, 235, 235);
+}
