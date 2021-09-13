@@ -44,7 +44,7 @@ class Loginpage extends Component {
         // localStorage.setItem("loginby",null)
         return (
             <div className={classes.loginpagemain}>
-            <h1>SHREE MEDICINE STORE</h1>
+            <h1>PHARMACY MANAGEMENT APP</h1>
                 <div className={classes.maincontainer}>
                     <form action="#" className={classes.formmain}>
                         <input type="text" placeholder={"     USERNAME"}
